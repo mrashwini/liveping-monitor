@@ -1,8 +1,4 @@
 requests
 fastapi
 uvicorn
-<<<<<<< HEAD
 httpx
-=======
-httpx
->>>>>>> f6385d3 (Add CI workflow and other local changes)
