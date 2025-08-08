@@ -1,0 +1,201 @@
+2025-08-08T13:00:16.447845+00:00 | https://www.google.com | UP | 938.87ms
+2025-08-08T13:00:19.320394+00:00 | https://www.github.com | UP | 2861.88ms
+2025-08-08T13:00:19.629684+00:00 | https://nonexistent.example.com | DOWN (HTTPSConnectionPool(host='nonexistent.example.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002172ACB9A90>: Failed to resolve 'nonexistent.example.com' ([Errno 11001] getaddrinfo failed)"))) | -1ms
+2025-08-08T13:01:20.446561+00:00 | https://www.google.com | UP | 802.29ms
+2025-08-08T13:01:21.381947+00:00 | https://www.github.com | UP | 923.89ms
+2025-08-08T13:01:21.400592+00:00 | https://nonexistent.example.com | DOWN (HTTPSConnectionPool(host='nonexistent.example.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002172ACBA210>: Failed to resolve 'nonexistent.example.com' ([Errno 11001] getaddrinfo failed)"))) | -1ms
+2025-08-08T13:02:23.262583+00:00 | https://www.google.com | UP | 1846.77ms
+2025-08-08T13:02:24.157439+00:00 | https://www.github.com | UP | 885.03ms
+2025-08-08T13:02:24.175319+00:00 | https://nonexistent.example.com | DOWN (HTTPSConnectionPool(host='nonexistent.example.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002172ACBA850>: Failed to resolve 'nonexistent.example.com' ([Errno 11001] getaddrinfo failed)"))) | -1ms
+2025-08-08T13:03:24.998266+00:00 | https://www.google.com | UP | 809.91ms
+2025-08-08T13:03:28.278978+00:00 | https://www.github.com | UP | 3268.6ms
+2025-08-08T13:03:28.301837+00:00 | https://nonexistent.example.com | DOWN (HTTPSConnectionPool(host='nonexistent.example.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002172ACBA990>: Failed to resolve 'nonexistent.example.com' ([Errno 11001] getaddrinfo failed)"))) | -1ms
+2025-08-08T13:04:29.056318+00:00 | https://www.google.com | UP | 742.42ms
+2025-08-08T13:04:30.077546+00:00 | https://www.github.com | UP | 1004.81ms
+2025-08-08T13:04:30.101843+00:00 | https://nonexistent.example.com | DOWN (HTTPSConnectionPool(host='nonexistent.example.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002172ACB9BD0>: Failed to resolve 'nonexistent.example.com' ([Errno 11001] getaddrinfo failed)"))) | -1ms
+2025-08-08T13:05:30.907097+00:00 | https://www.google.com | UP | 788.25ms
+2025-08-08T13:05:31.903365+00:00 | https://www.github.com | UP | 983.62ms
+2025-08-08T13:05:31.921364+00:00 | https://nonexistent.example.com | DOWN (HTTPSConnectionPool(host='nonexistent.example.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002172ACB9810>: Failed to resolve 'nonexistent.example.com' ([Errno 11001] getaddrinfo failed)"))) | -1ms
+2025-08-08T13:06:33.941306+00:00 | https://www.google.com | UP | 2006.56ms
+2025-08-08T13:06:35.080212+00:00 | https://www.github.com | UP | 1126.89ms
+2025-08-08T13:06:35.097758+00:00 | https://nonexistent.example.com | DOWN (HTTPSConnectionPool(host='nonexistent.example.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002172ACBB250>: Failed to resolve 'nonexistent.example.com' ([Errno 11001] getaddrinfo failed)"))) | -1ms
+2025-08-08T13:07:36.315546+00:00 | https://www.google.com | UP | 1202.56ms
+2025-08-08T13:07:37.237332+00:00 | https://www.github.com | UP | 908.84ms
+2025-08-08T13:07:37.257675+00:00 | https://nonexistent.example.com | DOWN (HTTPSConnectionPool(host='nonexistent.example.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002172ACBB610>: Failed to resolve 'nonexistent.example.com' ([Errno 11001] getaddrinfo failed)"))) | -1ms
+2025-08-08T13:08:39.123224+00:00 | https://www.google.com | UP | 1849.93ms
+2025-08-08T13:08:40.082911+00:00 | https://www.github.com | UP | 947.93ms
+2025-08-08T13:08:40.103996+00:00 | https://nonexistent.example.com | DOWN (HTTPSConnectionPool(host='nonexistent.example.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002172ACBB9D0>: Failed to resolve 'nonexistent.example.com' ([Errno 11001] getaddrinfo failed)"))) | -1ms
+2025-08-08T13:09:41.485922+00:00 | https://www.google.com | UP | 1369.64ms
+2025-08-08T13:09:42.460076+00:00 | https://www.github.com | UP | 963.6ms
+2025-08-08T13:09:42.475677+00:00 | https://nonexistent.example.com | DOWN (HTTPSConnectionPool(host='nonexistent.example.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002172ACBBD90>: Failed to resolve 'nonexistent.example.com' ([Errno 11001] getaddrinfo failed)"))) | -1ms
+2025-08-08T13:10:44.426130+00:00 | https://www.google.com | UP | 1936.82ms
+2025-08-08T13:10:45.254052+00:00 | https://www.github.com | UP | 814.75ms
+2025-08-08T13:10:45.271651+00:00 | https://nonexistent.example.com | DOWN (HTTPSConnectionPool(host='nonexistent.example.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002172ADE8190>: Failed to resolve 'nonexistent.example.com' ([Errno 11001] getaddrinfo failed)"))) | -1ms
+2025-08-08T13:11:46.189391+00:00 | https://www.google.com | UP | 903.25ms
+2025-08-08T13:11:47.033839+00:00 | https://www.github.com | UP | 834.63ms
+2025-08-08T13:11:47.051128+00:00 | https://nonexistent.example.com | DOWN (HTTPSConnectionPool(host='nonexistent.example.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002172ACBBD90>: Failed to resolve 'nonexistent.example.com' ([Errno 11001] getaddrinfo failed)"))) | -1ms
+2025-08-08T13:12:49.377196+00:00 | https://www.google.com | UP | 2311.49ms
+2025-08-08T13:12:50.502638+00:00 | https://www.github.com | UP | 1113.38ms
+2025-08-08T13:12:50.519506+00:00 | https://nonexistent.example.com | DOWN (HTTPSConnectionPool(host='nonexistent.example.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002172ACBB9D0>: Failed to resolve 'nonexistent.example.com' ([Errno 11001] getaddrinfo failed)"))) | -1ms
+2025-08-08T13:13:51.287669+00:00 | https://www.google.com | UP | 752.17ms
+2025-08-08T13:13:54.612623+00:00 | https://www.github.com | UP | 3312.92ms
+2025-08-08T13:13:54.630265+00:00 | https://nonexistent.example.com | DOWN (HTTPSConnectionPool(host='nonexistent.example.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002172ACBB610>: Failed to resolve 'nonexistent.example.com' ([Errno 11001] getaddrinfo failed)"))) | -1ms
+2025-08-08T13:14:56.581958+00:00 | https://www.google.com | UP | 1938.08ms
+2025-08-08T13:14:57.551749+00:00 | https://www.github.com | UP | 954.47ms
+2025-08-08T13:14:57.578629+00:00 | https://nonexistent.example.com | DOWN (HTTPSConnectionPool(host='nonexistent.example.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002172ACBB250>: Failed to resolve 'nonexistent.example.com' ([Errno 11001] getaddrinfo failed)"))) | -1ms
+2025-08-08T13:15:58.325552+00:00 | https://www.google.com | UP | 732.61ms
+2025-08-08T13:16:01.055867+00:00 | https://www.github.com | UP | 2719.36ms
+2025-08-08T13:16:01.078140+00:00 | https://nonexistent.example.com | DOWN (HTTPSConnectionPool(host='nonexistent.example.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002172ACB9810>: Failed to resolve 'nonexistent.example.com' ([Errno 11001] getaddrinfo failed)"))) | -1ms
+2025-08-08T13:17:01.877498+00:00 | https://www.google.com | UP | 782.17ms
+2025-08-08T13:17:02.874487+00:00 | https://www.github.com | UP | 986.32ms
+2025-08-08T13:17:02.893672+00:00 | https://nonexistent.example.com | DOWN (HTTPSConnectionPool(host='nonexistent.example.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002172ACB9BD0>: Failed to resolve 'nonexistent.example.com' ([Errno 11001] getaddrinfo failed)"))) | -1ms
+2025-08-08T13:18:03.733366+00:00 | https://www.google.com | UP | 827.42ms
+2025-08-08T13:18:08.994072+00:00 | https://www.github.com | UP | 5248.41ms
+2025-08-08T13:18:09.011744+00:00 | https://nonexistent.example.com | DOWN (HTTPSConnectionPool(host='nonexistent.example.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002172ACBA990>: Failed to resolve 'nonexistent.example.com' ([Errno 11001] getaddrinfo failed)"))) | -1ms
+2025-08-08T13:19:11.120493+00:00 | https://www.google.com | UP | 2093.91ms
+2025-08-08T13:19:12.101508+00:00 | https://www.github.com | UP | 967.3ms
+2025-08-08T13:19:12.120835+00:00 | https://nonexistent.example.com | DOWN (HTTPSConnectionPool(host='nonexistent.example.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002172ACBA850>: Failed to resolve 'nonexistent.example.com' ([Errno 11001] getaddrinfo failed)"))) | -1ms
+2025-08-08T13:20:12.989062+00:00 | https://www.google.com | UP | 852.26ms
+2025-08-08T13:20:13.889562+00:00 | https://www.github.com | UP | 887.67ms
+2025-08-08T13:20:13.906277+00:00 | https://nonexistent.example.com | DOWN (HTTPSConnectionPool(host='nonexistent.example.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002172ACBA210>: Failed to resolve 'nonexistent.example.com' ([Errno 11001] getaddrinfo failed)"))) | -1ms
+2025-08-08T13:21:15.702385+00:00 | https://www.google.com | UP | 1781.31ms
+2025-08-08T13:21:17.586922+00:00 | https://www.github.com | UP | 1872.54ms
+2025-08-08T13:21:17.607252+00:00 | https://nonexistent.example.com | DOWN (HTTPSConnectionPool(host='nonexistent.example.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002172ACBA710>: Failed to resolve 'nonexistent.example.com' ([Errno 11001] getaddrinfo failed)"))) | -1ms
+2025-08-08T13:22:20.546169+00:00 | https://www.google.com | UP | 2924.81ms
+2025-08-08T13:22:21.370704+00:00 | https://www.github.com | UP | 814.21ms
+2025-08-08T13:22:21.389064+00:00 | https://nonexistent.example.com | DOWN (HTTPSConnectionPool(host='nonexistent.example.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002172ACBAC10>: Failed to resolve 'nonexistent.example.com' ([Errno 11001] getaddrinfo failed)"))) | -1ms
+2025-08-08T13:23:23.685199+00:00 | https://www.google.com | UP | 2281.71ms
+2025-08-08T13:23:24.543105+00:00 | https://www.github.com | UP | 848.92ms
+2025-08-08T13:23:24.561635+00:00 | https://nonexistent.example.com | DOWN (HTTPSConnectionPool(host='nonexistent.example.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002172ADBC2D0>: Failed to resolve 'nonexistent.example.com' ([Errno 11001] getaddrinfo failed)"))) | -1ms
+2025-08-08T13:24:25.395704+00:00 | https://www.google.com | UP | 809.55ms
+2025-08-08T13:24:26.228142+00:00 | https://www.github.com | UP | 820.74ms
+2025-08-08T13:24:26.246244+00:00 | https://nonexistent.example.com | DOWN (HTTPSConnectionPool(host='nonexistent.example.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002172ACBAC10>: Failed to resolve 'nonexistent.example.com' ([Errno 11001] getaddrinfo failed)"))) | -1ms
+2025-08-08T13:25:28.500950+00:00 | https://www.google.com | UP | 2238.56ms
+2025-08-08T13:25:29.485953+00:00 | https://www.github.com | UP | 973.69ms
+2025-08-08T13:25:29.513312+00:00 | https://nonexistent.example.com | DOWN (HTTPSConnectionPool(host='nonexistent.example.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002172ACB9A90>: Failed to resolve 'nonexistent.example.com' ([Errno 11001] getaddrinfo failed)"))) | -1ms
+2025-08-08T13:26:30.226861+00:00 | https://www.google.com | UP | 692.67ms
+2025-08-08T13:26:31.163152+00:00 | https://www.github.com | UP | 925.33ms
+2025-08-08T13:26:31.181085+00:00 | https://nonexistent.example.com | DOWN (HTTPSConnectionPool(host='nonexistent.example.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002172ACB9F90>: Failed to resolve 'nonexistent.example.com' ([Errno 11001] getaddrinfo failed)"))) | -1ms
+2025-08-08T13:27:31.902234+00:00 | https://www.google.com | UP | 703.63ms
+2025-08-08T13:27:32.904597+00:00 | https://www.github.com | UP | 989.37ms
+2025-08-08T13:27:32.932483+00:00 | https://nonexistent.example.com | DOWN (HTTPSConnectionPool(host='nonexistent.example.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002172ACBAD50>: Failed to resolve 'nonexistent.example.com' ([Errno 11001] getaddrinfo failed)"))) | -1ms
+2025-08-08T13:28:33.836743+00:00 | https://www.google.com | UP | 886.84ms
+2025-08-08T13:28:34.798046+00:00 | https://www.github.com | UP | 950.35ms
+2025-08-08T13:28:34.816032+00:00 | https://nonexistent.example.com | DOWN (HTTPSConnectionPool(host='nonexistent.example.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002172ACB9D10>: Failed to resolve 'nonexistent.example.com' ([Errno 11001] getaddrinfo failed)"))) | -1ms
+2025-08-08T13:29:35.647773+00:00 | https://www.google.com | UP | 807.04ms
+2025-08-08T13:29:36.867430+00:00 | https://www.github.com | UP | 1208.57ms
+2025-08-08T13:29:36.884827+00:00 | https://nonexistent.example.com | DOWN (HTTPSConnectionPool(host='nonexistent.example.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002172ACBB110>: Failed to resolve 'nonexistent.example.com' ([Errno 11001] getaddrinfo failed)"))) | -1ms
+2025-08-08T13:30:37.679451+00:00 | https://www.google.com | UP | 780.1ms
+2025-08-08T13:30:38.729494+00:00 | https://www.github.com | UP | 1037.87ms
+2025-08-08T13:30:38.748019+00:00 | https://nonexistent.example.com | DOWN (HTTPSConnectionPool(host='nonexistent.example.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002172ACB96D0>: Failed to resolve 'nonexistent.example.com' ([Errno 11001] getaddrinfo failed)"))) | -1ms
+2025-08-08T13:31:39.595000+00:00 | https://www.google.com | UP | 833.17ms
+2025-08-08T13:31:40.559324+00:00 | https://www.github.com | UP | 952.21ms
+2025-08-08T13:31:40.579380+00:00 | https://nonexistent.example.com | DOWN (HTTPSConnectionPool(host='nonexistent.example.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002172ACBB390>: Failed to resolve 'nonexistent.example.com' ([Errno 11001] getaddrinfo failed)"))) | -1ms
+2025-08-08T13:32:41.457889+00:00 | https://www.google.com | UP | 842.04ms
+2025-08-08T13:32:42.438024+00:00 | https://www.github.com | UP | 967.9ms
+2025-08-08T13:32:42.459728+00:00 | https://nonexistent.example.com | DOWN (HTTPSConnectionPool(host='nonexistent.example.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002172ACBB750>: Failed to resolve 'nonexistent.example.com' ([Errno 11001] getaddrinfo failed)"))) | -1ms
+2025-08-08T13:33:43.450670+00:00 | https://www.google.com | UP | 976.38ms
+2025-08-08T13:33:45.211385+00:00 | https://www.github.com | UP | 1748.32ms
+2025-08-08T13:33:45.233350+00:00 | https://nonexistent.example.com | DOWN (HTTPSConnectionPool(host='nonexistent.example.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002172ACBBB10>: Failed to resolve 'nonexistent.example.com' ([Errno 11001] getaddrinfo failed)"))) | -1ms
+2025-08-08T13:34:47.699003+00:00 | https://www.google.com | UP | 2447.28ms
+2025-08-08T13:34:48.621971+00:00 | https://www.github.com | UP | 907.6ms
+2025-08-08T13:34:48.658079+00:00 | https://nonexistent.example.com | DOWN (HTTPSConnectionPool(host='nonexistent.example.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002172ACBBED0>: Failed to resolve 'nonexistent.example.com' ([Errno 11001] getaddrinfo failed)"))) | -1ms
+2025-08-08T13:35:49.487566+00:00 | https://www.google.com | UP | 805.84ms
+2025-08-08T13:35:50.407146+00:00 | https://www.github.com | UP | 907.13ms
+2025-08-08T13:35:50.433145+00:00 | https://nonexistent.example.com | DOWN (HTTPSConnectionPool(host='nonexistent.example.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002172ADD42D0>: Failed to resolve 'nonexistent.example.com' ([Errno 11001] getaddrinfo failed)"))) | -1ms
+2025-08-08T13:36:52.237607+00:00 | https://www.google.com | UP | 1782.58ms
+2025-08-08T13:36:53.184988+00:00 | https://www.github.com | UP | 931.88ms
+2025-08-08T13:36:53.209805+00:00 | https://nonexistent.example.com | DOWN (HTTPSConnectionPool(host='nonexistent.example.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002172ACBBED0>: Failed to resolve 'nonexistent.example.com' ([Errno 11001] getaddrinfo failed)"))) | -1ms
+2025-08-08T13:37:54.045790+00:00 | https://www.google.com | UP | 816.89ms
+2025-08-08T13:37:55.011986+00:00 | https://www.github.com | UP | 948.34ms
+2025-08-08T13:37:55.041067+00:00 | https://nonexistent.example.com | DOWN (HTTPSConnectionPool(host='nonexistent.example.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002172ACBBD90>: Failed to resolve 'nonexistent.example.com' ([Errno 11001] getaddrinfo failed)"))) | -1ms
+2025-08-08T13:38:57.110399+00:00 | https://www.google.com | UP | 2046.24ms
+2025-08-08T13:39:00.017607+00:00 | https://www.github.com | UP | 2890.79ms
+2025-08-08T13:39:00.044985+00:00 | https://nonexistent.example.com | DOWN (HTTPSConnectionPool(host='nonexistent.example.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002172ACBB9D0>: Failed to resolve 'nonexistent.example.com' ([Errno 11001] getaddrinfo failed)"))) | -1ms
+2025-08-08T13:40:00.863124+00:00 | https://www.google.com | UP | 800.7ms
+2025-08-08T13:40:01.799263+00:00 | https://www.github.com | UP | 923.13ms
+2025-08-08T13:40:01.826730+00:00 | https://nonexistent.example.com | DOWN (HTTPSConnectionPool(host='nonexistent.example.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002172ACBB610>: Failed to resolve 'nonexistent.example.com' ([Errno 11001] getaddrinfo failed)"))) | -1ms
+2025-08-08T13:41:07.637279+00:00 | https://www.google.com | UP | 5786.26ms
+2025-08-08T13:41:08.564431+00:00 | https://www.github.com | UP | 911.31ms
+2025-08-08T13:41:08.587729+00:00 | https://nonexistent.example.com | DOWN (HTTPSConnectionPool(host='nonexistent.example.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002172ACBB250>: Failed to resolve 'nonexistent.example.com' ([Errno 11001] getaddrinfo failed)"))) | -1ms
+2025-08-08T13:42:12.351045+00:00 | https://www.google.com | UP | 3742.42ms
+2025-08-08T13:42:13.322143+00:00 | https://www.github.com | UP | 956.14ms
+2025-08-08T13:42:13.357556+00:00 | https://nonexistent.example.com | DOWN (HTTPSConnectionPool(host='nonexistent.example.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002172ACB9810>: Failed to resolve 'nonexistent.example.com' ([Errno 11001] getaddrinfo failed)"))) | -1ms
+2025-08-08T13:43:17.024701+00:00 | https://www.google.com | UP | 3618.6ms
+2025-08-08T13:43:20.476506+00:00 | https://www.github.com | UP | 3435.51ms
+2025-08-08T13:43:20.498684+00:00 | https://nonexistent.example.com | DOWN (HTTPSConnectionPool(host='nonexistent.example.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002172ACB9BD0>: Failed to resolve 'nonexistent.example.com' ([Errno 11001] getaddrinfo failed)"))) | -1ms
+2025-08-08T13:44:21.289808+00:00 | https://www.google.com | UP | 776.26ms
+2025-08-08T13:44:22.274955+00:00 | https://www.github.com | UP | 976.3ms
+2025-08-08T13:44:22.295712+00:00 | https://nonexistent.example.com | DOWN (HTTPSConnectionPool(host='nonexistent.example.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002172ACBA990>: Failed to resolve 'nonexistent.example.com' ([Errno 11001] getaddrinfo failed)"))) | -1ms
+2025-08-08T13:45:23.079947+00:00 | https://www.google.com | UP | 773.3ms
+2025-08-08T13:45:24.018381+00:00 | https://www.github.com | UP | 930.16ms
+2025-08-08T13:45:24.040426+00:00 | https://nonexistent.example.com | DOWN (HTTPSConnectionPool(host='nonexistent.example.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002172ACBA850>: Failed to resolve 'nonexistent.example.com' ([Errno 11001] getaddrinfo failed)"))) | -1ms
+2025-08-08T13:46:25.870542+00:00 | https://www.google.com | UP | 1816.98ms
+2025-08-08T13:46:26.778898+00:00 | https://www.github.com | UP | 898.5ms
+2025-08-08T13:46:26.802426+00:00 | https://nonexistent.example.com | DOWN (HTTPSConnectionPool(host='nonexistent.example.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002172ACBA210>: Failed to resolve 'nonexistent.example.com' ([Errno 11001] getaddrinfo failed)"))) | -1ms
+2025-08-08T13:47:29.411105+00:00 | https://www.google.com | UP | 2596.54ms
+2025-08-08T13:47:30.404167+00:00 | https://www.github.com | UP | 981.76ms
+2025-08-08T13:47:30.426974+00:00 | https://nonexistent.example.com | DOWN (HTTPSConnectionPool(host='nonexistent.example.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002172ACBA710>: Failed to resolve 'nonexistent.example.com' ([Errno 11001] getaddrinfo failed)"))) | -1ms
+2025-08-08T13:48:31.246918+00:00 | https://www.google.com | UP | 802.89ms
+2025-08-08T13:48:32.286850+00:00 | https://www.github.com | UP | 1030.66ms
+2025-08-08T13:48:32.310655+00:00 | https://nonexistent.example.com | DOWN (HTTPSConnectionPool(host='nonexistent.example.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002172ADE82D0>: Failed to resolve 'nonexistent.example.com' ([Errno 11001] getaddrinfo failed)"))) | -1ms
+2025-08-08T13:49:33.105303+00:00 | https://www.google.com | UP | 779.92ms
+2025-08-08T13:49:33.976939+00:00 | https://www.github.com | UP | 863.96ms
+2025-08-08T13:49:33.999377+00:00 | https://nonexistent.example.com | DOWN (HTTPSConnectionPool(host='nonexistent.example.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002172ACBA710>: Failed to resolve 'nonexistent.example.com' ([Errno 11001] getaddrinfo failed)"))) | -1ms
+2025-08-08T13:50:36.197186+00:00 | https://www.google.com | UP | 2185.72ms
+2025-08-08T13:50:37.142393+00:00 | https://www.github.com | UP | 936.75ms
+2025-08-08T13:50:37.160820+00:00 | https://nonexistent.example.com | DOWN (HTTPSConnectionPool(host='nonexistent.example.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002172ACBAC10>: Failed to resolve 'nonexistent.example.com' ([Errno 11001] getaddrinfo failed)"))) | -1ms
+2025-08-08T13:51:38.629268+00:00 | https://www.google.com | UP | 1457.08ms
+2025-08-08T13:51:40.289034+00:00 | https://www.github.com | UP | 1650.6ms
+2025-08-08T13:51:40.309340+00:00 | https://nonexistent.example.com | DOWN (HTTPSConnectionPool(host='nonexistent.example.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002172ACB9A90>: Failed to resolve 'nonexistent.example.com' ([Errno 11001] getaddrinfo failed)"))) | -1ms
+2025-08-08T13:52:41.015989+00:00 | https://www.google.com | UP | 692.99ms
+2025-08-08T13:52:41.972464+00:00 | https://www.github.com | UP | 947.87ms
+2025-08-08T13:52:41.989102+00:00 | https://nonexistent.example.com | DOWN (HTTPSConnectionPool(host='nonexistent.example.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002172ACB9F90>: Failed to resolve 'nonexistent.example.com' ([Errno 11001] getaddrinfo failed)"))) | -1ms
+2025-08-08T13:53:43.877073+00:00 | https://www.google.com | UP | 1874.34ms
+2025-08-08T13:53:44.999844+00:00 | https://www.github.com | UP | 1113.73ms
+2025-08-08T13:53:45.020383+00:00 | https://nonexistent.example.com | DOWN (HTTPSConnectionPool(host='nonexistent.example.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002172ACBAD50>: Failed to resolve 'nonexistent.example.com' ([Errno 11001] getaddrinfo failed)"))) | -1ms
+2025-08-08T13:54:45.814929+00:00 | https://www.google.com | UP | 781.08ms
+2025-08-08T13:54:46.761776+00:00 | https://www.github.com | UP | 937.57ms
+2025-08-08T13:54:46.778749+00:00 | https://nonexistent.example.com | DOWN (HTTPSConnectionPool(host='nonexistent.example.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002172ACB9D10>: Failed to resolve 'nonexistent.example.com' ([Errno 11001] getaddrinfo failed)"))) | -1ms
+2025-08-08T13:55:47.646520+00:00 | https://www.google.com | UP | 854.13ms
+2025-08-08T13:55:48.571461+00:00 | https://www.github.com | UP | 916.95ms
+2025-08-08T13:55:48.591048+00:00 | https://nonexistent.example.com | DOWN (HTTPSConnectionPool(host='nonexistent.example.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002172ACBB110>: Failed to resolve 'nonexistent.example.com' ([Errno 11001] getaddrinfo failed)"))) | -1ms
+2025-08-08T13:56:49.413593+00:00 | https://www.google.com | UP | 809.88ms
+2025-08-08T13:56:50.372717+00:00 | https://www.github.com | UP | 949.69ms
+2025-08-08T13:56:50.397179+00:00 | https://nonexistent.example.com | DOWN (HTTPSConnectionPool(host='nonexistent.example.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002172ACB96D0>: Failed to resolve 'nonexistent.example.com' ([Errno 11001] getaddrinfo failed)"))) | -1ms
+2025-08-08T13:57:52.140495+00:00 | https://www.google.com | UP | 1728.2ms
+2025-08-08T13:57:53.348440+00:00 | https://www.github.com | UP | 1200.49ms
+2025-08-08T13:57:53.364127+00:00 | https://nonexistent.example.com | DOWN (HTTPSConnectionPool(host='nonexistent.example.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002172ACBB390>: Failed to resolve 'nonexistent.example.com' ([Errno 11001] getaddrinfo failed)"))) | -1ms
+2025-08-08T13:58:54.200947+00:00 | https://www.google.com | UP | 824.86ms
+2025-08-08T13:58:56.091148+00:00 | https://www.github.com | UP | 1882.96ms
+2025-08-08T13:58:56.106799+00:00 | https://nonexistent.example.com | DOWN (HTTPSConnectionPool(host='nonexistent.example.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002172ACBB750>: Failed to resolve 'nonexistent.example.com' ([Errno 11001] getaddrinfo failed)"))) | -1ms
+2025-08-08T14:00:07.687253+00:00 | https://www.google.com | DOWN (HTTPSConnectionPool(host='www.google.com', port=443): Read timed out. (read timeout=5)) | -1ms
+2025-08-08T14:00:23.663296+00:00 | https://www.github.com | DOWN (HTTPSConnectionPool(host='www.github.com', port=443): Read timed out. (read timeout=5)) | -1ms
+2025-08-08T14:00:23.697831+00:00 | https://nonexistent.example.com | DOWN (HTTPSConnectionPool(host='nonexistent.example.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002172ADE8550>: Failed to resolve 'nonexistent.example.com' ([Errno 11001] getaddrinfo failed)"))) | -1ms
+2025-08-08T14:01:25.985960+00:00 | https://www.google.com | UP | 2273.83ms
+2025-08-08T14:01:26.841436+00:00 | https://www.github.com | UP | 848.26ms
+2025-08-08T14:01:26.858945+00:00 | https://nonexistent.example.com | DOWN (HTTPSConnectionPool(host='nonexistent.example.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002172ACBBB10>: Failed to resolve 'nonexistent.example.com' ([Errno 11001] getaddrinfo failed)"))) | -1ms
+2025-08-08T14:02:27.869803+00:00 | https://www.google.com | UP | 999.91ms
+2025-08-08T14:02:29.158996+00:00 | https://www.github.com | UP | 1281.88ms
+2025-08-08T14:02:29.173960+00:00 | https://nonexistent.example.com | DOWN (HTTPSConnectionPool(host='nonexistent.example.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002172ACBBED0>: Failed to resolve 'nonexistent.example.com' ([Errno 11001] getaddrinfo failed)"))) | -1ms
+2025-08-08T14:03:30.014993+00:00 | https://www.google.com | UP | 828.22ms
+2025-08-08T14:03:37.736674+00:00 | https://www.github.com | UP | 7713.95ms
+2025-08-08T14:03:37.754381+00:00 | https://nonexistent.example.com | DOWN (HTTPSConnectionPool(host='nonexistent.example.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002172ACBBD90>: Failed to resolve 'nonexistent.example.com' ([Errno 11001] getaddrinfo failed)"))) | -1ms
+2025-08-08T14:04:38.690506+00:00 | https://www.google.com | UP | 924.18ms
+2025-08-08T14:04:39.894596+00:00 | https://www.github.com | UP | 1195.85ms
+2025-08-08T14:04:39.911742+00:00 | https://nonexistent.example.com | DOWN (HTTPSConnectionPool(host='nonexistent.example.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002172ACBB9D0>: Failed to resolve 'nonexistent.example.com' ([Errno 11001] getaddrinfo failed)"))) | -1ms
+2025-08-08T14:05:40.732975+00:00 | https://www.google.com | UP | 808.39ms
+2025-08-08T14:05:44.277336+00:00 | https://www.github.com | UP | 3534.99ms
+2025-08-08T14:05:44.296287+00:00 | https://nonexistent.example.com | DOWN (HTTPSConnectionPool(host='nonexistent.example.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002172ACBB610>: Failed to resolve 'nonexistent.example.com' ([Errno 11001] getaddrinfo failed)"))) | -1ms
+2025-08-08T14:06:45.788891+00:00 | https://www.google.com | UP | 1480.56ms
+2025-08-08T14:06:46.723374+00:00 | https://www.github.com | UP | 925.44ms
+2025-08-08T14:06:46.747071+00:00 | https://nonexistent.example.com | DOWN (HTTPSConnectionPool(host='nonexistent.example.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002172ACBB250>: Failed to resolve 'nonexistent.example.com' ([Errno 11001] getaddrinfo failed)"))) | -1ms
+2025-08-08T14:07:47.568553+00:00 | https://www.google.com | UP | 805.94ms
+2025-08-08T14:07:49.583963+00:00 | https://www.github.com | UP | 2006.4ms
+2025-08-08T14:07:49.601313+00:00 | https://nonexistent.example.com | DOWN (HTTPSConnectionPool(host='nonexistent.example.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002172ACB9810>: Failed to resolve 'nonexistent.example.com' ([Errno 11001] getaddrinfo failed)"))) | -1ms
+2025-08-08T14:08:51.063181+00:00 | https://www.google.com | UP | 1451.99ms
+2025-08-08T14:08:51.968952+00:00 | https://www.github.com | UP | 897.86ms
+2025-08-08T14:08:51.985664+00:00 | https://nonexistent.example.com | DOWN (HTTPSConnectionPool(host='nonexistent.example.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002172ACB9BD0>: Failed to resolve 'nonexistent.example.com' ([Errno 11001] getaddrinfo failed)"))) | -1ms
+2025-08-08T14:09:52.905271+00:00 | https://www.google.com | UP | 904.87ms
+2025-08-08T14:09:53.807023+00:00 | https://www.github.com | UP | 893.25ms
+2025-08-08T14:09:53.827453+00:00 | https://nonexistent.example.com | DOWN (HTTPSConnectionPool(host='nonexistent.example.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002172ACBA990>: Failed to resolve 'nonexistent.example.com' ([Errno 11001] getaddrinfo failed)"))) | -1ms
