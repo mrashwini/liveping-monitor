@@ -1,63 +1,64 @@
-import requests
-import time
+import os
 import json
+import time
+import requests
 
 # Load config
-with open("config.json", "r") as f:
-    config = json.load(f)
+if os.getenv("GITHUB_ACTIONS"):  # running in GitHub Actions
+    TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
+    TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
+else:  # running locally
+    with open("config.json", "r") as f:
+        config = json.load(f)
+    TELEGRAM_BOT_TOKEN = config.get("telegram_bot_token")
+    TELEGRAM_CHAT_ID = config.get("telegram_chat_id")
 
-INTERVAL = config.get("interval_seconds", 60)
-URLS = config.get("urls", [])
+# Websites to monitor
+SITES = [
+    "https://google.com",
+    "https://github.com",
+    "https://youtube.com"
+]
 
-# Telegram Bot Config
-BOT_TOKEN = "8211506382:AAFCaiER16SAA_QTPKhDIeHP0kgdPeG3UjA"
-CHAT_ID = "5792094086"
+# Track status to only alert on changes
+status_history = {site: True for site in SITES}  # Assume UP initially
 
-# Store previous status
-status_map = {url: None for url in URLS}
-
-
-def send_telegram_message(text):
-    url = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
+def send_telegram_message(message):
+    """Send a message to Telegram Bot."""
+    if not TELEGRAM_BOT_TOKEN or not TELEGRAM_CHAT_ID:
+        print("Telegram credentials missing.")
+        return
+    url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage"
     payload = {
-        "chat_id": CHAT_ID,
-        "text": text,
-        "parse_mode": "Markdown"
+        "chat_id": TELEGRAM_CHAT_ID,
+        "text": message
     }
     try:
-        requests.post(url, json=payload, timeout=10)
-    except requests.exceptions.RequestException as e:
-        print("Error sending Telegram message:", e)
+        requests.post(url, json=payload)
+    except Exception as e:
+        print(f"Failed to send Telegram message: {e}")
 
+def check_sites():
+    """Check each site and send alert if status changes."""
+    global status_history
+    for site in SITES:
+        try:
+            r = requests.get(site, timeout=5)
+            is_up = r.status_code == 200
+        except requests.RequestException:
+            is_up = False
 
-def check_site(url):
-    try:
-        response = requests.get(url, timeout=5)
-        return response.status_code == 200
-    except requests.exceptions.RequestException:
-        return False
+        # Detect change in status
+        if is_up != status_history[site]:
+            status_history[site] = is_up
+            if is_up:
+                send_telegram_message(f"✅ {site} is back UP!")
+            else:
+                send_telegram_message(f"⚠️ {site} is DOWN!")
 
-
-def monitor():
-    while True:
-        for url in URLS:
-            is_up = check_site(url)
-            prev_status = status_map[url]
-
-            if prev_status is None:
-                status_map[url] = is_up
-                continue
-
-            if prev_status and not is_up:
-                send_telegram_message(f"🚨 *ALERT*: {url} is DOWN!")
-
-            if not prev_status and is_up:
-                send_telegram_message(f"✅ *RECOVERED*: {url} is back UP!")
-
-            status_map[url] = is_up
-
-        time.sleep(INTERVAL)
-
+        print(f"{site} - {'UP' if is_up else 'DOWN'}")
 
 if __name__ == "__main__":
-    monitor()
+    while True:
+        check_sites()
+        time.sleep(60)  # check every minute
